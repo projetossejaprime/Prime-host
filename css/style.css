@@ -638,3 +638,689 @@ section{
             form > .submit-form-s6:hover{
                 background-color: var(--primaria-claro);
             }
+        
+/* ================ SMARTPHONES ================ */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* ================ SMARTPHONES UNIVERSAL ================ */
+
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5,
+    .section-6{        
+        height: auto;
+        max-height: unset !important;
+    }
+
+    .section-2 .text-s2,
+    .section-3 .text-s3,
+    .section-4 .text-s4,
+    .section-5 .text-s5,
+    .section-6 .text-s6{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        padding: 60px 25px !important;
+    } 
+
+    /* ================ SMARTPHONES SECTION 1 ================ */
+
+    .ParallaxContainer > .parallax-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgba(53, 53, 53, 0.4);
+
+        width: 100%;
+        height: 100%;
+    }
+
+        .parallax-text > h1{
+            font-size: 3rem;
+            text-align: center;
+            text-shadow: rgba(0, 0, 0, 0.3) 0 0 65px;
+            line-height: 3rem;
+
+            width: 100%;
+        }
+
+        .parallax-text > p{
+            color: rgb(255, 255, 255);
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-align: center;
+            text-shadow: rgba(0, 0, 0, 0.5) 0 0 45;
+            line-height: 1.4rem;
+            
+            width: 80%;
+            
+            margin: 15px 0 50px 0;
+        }
+
+    .onda-s1{
+        width: 100%;
+        height: 50px !important;
+        overflow: hidden;
+    }
+
+    .titulo-conteudo-s1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 95%;
+        margin: 0 auto;
+        padding: 75px 0;
+    }
+
+        .balao-titulo{            
+            width: auto;
+            min-width: unset !important;
+            height: 60px;
+
+            padding: 0 25px;
+
+            position: relative;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+        .balao-titulo:before {
+            content: "";
+            position: absolute;
+            left: 80%;
+            bottom: -26px;
+            width: 0;
+            height: 0;
+        }
+
+            .balao-titulo > h2{
+                font-size: 1.2rem;
+                text-align: center;
+                margin: 0;
+            }
+
+        .card-s1{
+            width: 100%;
+            height: 320px;
+        }
+
+            .card-s1 > .icon-card-s1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 20%;
+
+                margin-bottom: 40px;
+            }
+
+    .title-s2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        position: absolute;
+        bottom: 0;
+    }
+
+        .title-s2 > .title-box{
+            width: 60%;
+            min-width: 225px;
+        }
+
+            .title-box > h3{
+                font-size: 1.8rem;
+            }
+
+    /* ================ SMARTPHONES SECTION 2 ================ */
+
+        .text-s2 > h2{
+            font-size: 2.6rem;
+            font-weight: bold;
+            text-align: center;
+
+            line-height: 2.6rem;
+        }
+
+        .text-s2 > p{
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.8rem;
+
+            margin: 25px 0;
+        }
+
+    .section-2 .image-s2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .image-s2 > img{
+            width: 100%;
+            max-width: unset;
+            height: auto;
+            margin-top: 0;
+        }
+
+    /* ================ SMARTPHONES SECTION 3 ================ */
+
+    .text-s3 > h2{
+        font-size: 2.6rem;
+        font-weight: bold;
+        text-align: center;
+
+        line-height: 2.6rem;
+    }
+
+    .text-s3 > p{
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.8rem;
+
+        margin: 25px 0;
+    }
+
+    .section-3 .image-s3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .image-s3 > img{
+            width: 70% !important;
+            max-width: unset;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+    /* ================ SMARTPHONES SECTION 4 ================ */
+
+    .text-s4 > h2{
+        font-size: 2.6rem;
+        font-weight: bold;
+        text-align: center;
+
+        line-height: 2.6rem;
+    }
+
+    .text-s4 > p{
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.8rem;
+
+        margin: 25px 0;
+    }
+
+    .section-4 .image-s4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .image-s4 > img{
+            width: 80% !important;
+            min-width: unset;
+            max-width: unset;
+            height: auto;
+
+            position: relative !important;
+        }
+
+    /* ================ SMARTPHONES SECTION 5 ================ */
+
+    .text-s5 > h2{
+        font-size: 2.6rem;
+        font-weight: bold;
+        text-align: center;
+
+        line-height: 2.6rem;
+    }
+
+    .text-s5 > p{
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.8rem;
+
+        margin: 25px 0;
+    }
+
+    .section-5 .image-s5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .image-s5 > img{
+            width: 70%;
+            max-width: unset;
+            height: auto;;
+
+            position: relative !important;
+        }
+
+    /* ================ SMARTPHONES SECTION 6 ================ */
+
+    .text-s6 > h2{
+        font-size: 2.2rem;
+        font-weight: bold;
+        text-align: center;
+
+        line-height: 2.2rem;
+    }
+
+    .text-s6 > p{
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.8rem;
+
+        margin: 25px 0;
+    }
+
+    .form-box-s6{
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+
+        .form-box-title{
+            padding: 20px !important;
+        }
+
+            .form-box-title > h3{
+                font-size: 1.4rem;
+            }
+
+}
+
+/* ================ TABLETS ================ */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+
+    /* ================ TABLETS UNIVERSAL ================ */
+
+    /* .section-1 .texto-s1,
+    .section-3 .texto-s3,
+    .section-4 .texto-s4,
+    .section-5 .texto-s5,
+    .section-6 .texto-s6,
+    .section-7 .texto-s7,
+    .section-8 .texto-s8,
+    .section-9 .texto-s9{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        width: 60%;
+        height: 80vh;
+        max-height: 520px;
+
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .section-1 .imagem-s1,
+    .section-3 .imagem-s3,
+    .section-4 .imagem-s4,
+    .section-5 .imagem-s5,
+    .section-6 .imagem-s6,
+    .section-7 .imagem-s7,
+    .section-8 .imagem-s8,
+    .section-9 .imagem-s9{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        height: 40vh;
+
+        margin: 40px 0;
+
+        position: relative;
+    } */
+
+    h2{
+        font-size: 1.8rem !important;
+        font-weight: bold !important;
+    }
+
+    p{
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+        
+        margin: 15px 0 !important;
+    }
+
+    /* ================ TABLETS SECTION 1 ================ */
+
+    .ParallaxContainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        position: relative;
+        z-index: -1;
+        height: 100vh;
+
+        transform: translateZ(-1px) scale(2.1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-position: right;
+    }
+
+    .parallax-text > h1{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: left;
+        
+        width: 95%;
+    }
+
+    .parallax-text > p{
+        font-size: 1rem;
+        text-align: left;
+        
+        width: 95%;
+        
+        margin: 5px 0 25px 0;
+    }
+
+    .onda-s1{
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .balao-titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        min-width: 660px !important;
+        height: 60px;
+        padding: 0 45px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .balao-titulo > h2{
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .card-s1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 50%;
+        min-width: 320px;
+        height: 320px;
+
+        margin-bottom: 60px;
+    }
+
+    .card-s1 > .icon-card-s1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 25%;
+
+        margin-bottom: 40px;
+    }
+
+    .icon-card-s1 > img{
+        width: 80%;
+    }
+
+    .card-s1 > h3{
+        font-weight: bold;
+        font-size: 1.4rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .card-s1 > p{
+        font-size: 1rem;
+        text-align: center;
+
+        width: 80%;
+
+        margin: 0 auto;
+    }
+
+    .title-s2 > .title-box{
+
+        width: 25%;
+
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+
+        padding: 20px;
+    }
+
+    .title-box > h3{
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+
+        margin: 0 !important;
+    }
+
+    /* ================ TABLETS SECTION 2 ================ */
+
+    .section-2 .text-s2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        padding-left: 80px;
+    }
+
+    .section-2 .image-s2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .image-s2 > img{
+            width: auto;
+            min-width: unset;
+            height: auto;
+            margin: 100px 0 0 150px;
+        }
+
+    /* ================ TABLETS SECTION 3 ================ */
+
+    .section-3 .text-s3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        padding-right: 80px;
+    }
+
+    .section-3 .image-s3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .image-s3 > img{
+            width: auto;
+            min-width: unset !important;
+            max-width: 320px;
+        }
+
+    /* ================ TABLETS SECTION 4 ================ */
+
+    .image-s4 > img{
+        width: auto;
+        min-width: unset !important;
+        max-width: 300px;
+    }
+
+    /* ================ TABLETS SECTION 5 ================ */
+
+    .section-5 .image-s5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-s5 > img{
+        position: relative !important;
+        width: auto;
+        min-width: unset !important;
+        max-width: 340px;
+    }
+
+    /* ================ TABLETS SECTION 6 ================ */
+
+    .form-box-s6{
+        width: 100% !important;
+    }
+
+    .form-box-title{
+        padding: 25px 5px !important;
+    }
+
+    .form-box-title h3{
+        font-size: 1.4rem;
+    }
+
+}
+
+/* ================ TINY SCREENS ================ */
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1340px) {
+    
+    h1{
+        font-size: 3.4rem !important;
+        line-height: 3.4rem !important;
+    }
+    
+    h2{
+        font-size: 2.2rem !important;
+    }
+}
+
+/* ================ LARGE SCREENS ================ */
+
+@media only screen  and (min-width : 1824px) {
+    .row,
+    section{
+        height: auto !important;
+        max-height: unset !important;
+        min-height: unset !important;
+    }
+
+    /* ================ LARGE SCREENS SECTION 1 ================ */
+
+    .section-1{
+        background-color: var(--primaria);
+        background-image: url(../images/bg-section-1.png);
+        background-size: cover;
+    }
+
+    .section-1 .texto-s1{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+
+        height: 100vh;
+
+        padding-left: 100px;
+    }
+
+    .section-1 .imagem-s1{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+        
+        height: 100vh;
+    }
+
+    /* ================ LARGE SCREENS SECTION 1 ================ */
+
+    .section-2 .gif-s2{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-2 .texto-s2{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* ================ LARGE SCREENS SECTION 1 ================ */
+
+    .section-3 .imagem-s3{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-3 .texto-s3{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* ================ LARGE SCREENS SECTION 1 ================ */
+
+    .section-4 .imagem-s4{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-4 .texto-s4{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 5 Telas Maiores*/
+
+    .section-5 .imagem-s5{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-5 .texto-s5{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 6 Telas Maiores*/
+
+    .section-6 .imagem-s6{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-6 .texto-s6{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+}
